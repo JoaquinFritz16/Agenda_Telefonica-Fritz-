@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "people": [
+    {
+      "name": "Cristiano",
+      "surname": "Ronaldo",
+      "age": 39,
+      "numTel": "845-704 9520",
+      "id": 1
+    },
+    {
+      "name": "Kylian",
+      "surname": "Mbappé",
+      "age": 25,
+      "numTel": "510-260 4661",
+      "id": 2
+    },
+    {
+      "name": "Erling",
+      "surname": "Haaland",
+      "age": 24,
+      "numTel": "713-682 1937",
+      "id": 3
+    },
+    {
+      "name": "Lamine",
+      "surname": "Yamal",
+      "age": 17,
+      "numTel": "356-164 0304",
+      "id": 4
+    },
+    {
+      "name": "Exequiel Oscar",
+      "surname": "Zeballos",
+      "age": 22,
+      "numTel": "911-051 1905",
+      "id": 5
+    }
+  ]
+}
