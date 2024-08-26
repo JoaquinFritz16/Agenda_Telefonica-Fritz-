@@ -1,15 +1,15 @@
-import NavBar from "./SearchBar"
+import SearchBar from "./SearchBar"
 import "./Header.css"
 function Header({ search, setSearch, setFiltredPeople, people }){
     return(
         <>
         <div className="header-container">
         <img src="eye_logo1-removebg-preview.png" alt="logo" width="200"></img>
-        <NavBar 
+        <SearchBar 
         search={search} 
         setSearch={setSearch} 
         setFiltredPeople={setFiltredPeople} 
-        people={people}></NavBar>
+        people={people}></SearchBar>
         </div>
         </>
     )
